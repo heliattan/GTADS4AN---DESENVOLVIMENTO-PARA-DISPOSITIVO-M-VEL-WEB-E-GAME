@@ -1,0 +1,92 @@
+:root {
+  --background-color: #e6dde7;
+  --background-nav-footer-color: #666666;
+  --background-content: #926697;
+  --main-text-color: black;
+  --title-color: black;
+}
+.dark-mode:root {
+  --background-color: #1b1515;
+  --background-nav-footer-color: #27071b;
+  --background-content: #4d0431;
+  --main-text-color: #aebad4;
+  --title-color: #aebad4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+}
+.menu {
+  background-color: var(--background-nav-footer-color);
+  text-align: center;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  display: block;
+  color: var(--title-color);
+  padding: 30px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.main {
+  padding: 50px 0;
+}
+.content {
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+  background-color: var(--background-content);
+  height: 1000px;
+}
+.content h1 {
+  margin-bottom: 30px;
+}
+.email {
+  width: 100%;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+}
+.footer {
+  background-color: var(--background-nav-footer-color);
+  color: var(--title-color);
+  height: 80px;
+  padding-top: 50px;
+}
+.name-rights {
+  width: 50%;
+  height: 80%;
+  background-color: var(--background-nav-footer-color);
+  text-align: center;
+}
+.siganos {
+  margin-top: -100px;
+  height: 80%;
+  margin-left: 50%;
+  width: 50%;
+  background-color: var(--background-nav-footer-color);
+  text-align: center;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+}
+aside {
+  height: 320px;
+  top: 160;
+  width: 350px;
+  float: right;
+}
+#page1 {
+  width: 100%;
+  float: left;
+}
